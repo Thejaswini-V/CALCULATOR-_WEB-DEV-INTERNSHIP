@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+    <script rel="text/js" src="Calculator.js"></script>
+</head>
+<body>
+    <div class="calci">
+        <input type="text" class="display" id="display" placeholder="0">
+        <div class="buttons">
+            <div class="r1">
+                <button onclick="clr('display')">CLR</button>
+                <button onclick="display.value=eval(display.value)">=</button>
+                <button onclick="display.value+='+'">+</button>
+                <button onclick="display.value+='-'">-</button>
+            <div class="r2">
+                <button onclick="display.value+='1'">1</button>
+                <button onclick="display.value+='2'">2</button>
+                <button onclick="display.value+='*'">*</button>
+                <button onclick="display.value+='/'">/</button>
+            </div>
+            <div class="r3">
+                <button onclick="display.value+='3'">3</button>
+                <button onclick="display.value+='4'">4</button>
+                <button onclick="display.value+='5'">5</button>
+                <button onclick="display.value+='6'">6</button>
+            </div>
+            <div class="r4">
+                <button onclick="display.value+='7'">7</button>
+                <button onclick="display.value+='8'">8</button>
+                <button onclick="display.value+='9'">9</button>
+                <button onclick="display.value+='0'">0</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

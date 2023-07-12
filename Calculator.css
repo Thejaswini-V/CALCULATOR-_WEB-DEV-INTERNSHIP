@@ -1,0 +1,45 @@
+body h1{
+    text-align: center;
+    display: block;
+}
+.calci{
+    height:100vh;
+    width:500px;
+    background-color:rgb(52, 5, 61);
+    border-radius:25px;
+    margin:auto auto;
+    display:flex;
+    flex-direction: column;
+}
+.display{
+    background-color:aliceblue;
+    width:450px;
+    height:20%;
+    align-self:top;
+    margin:auto;
+    margin-left:20px;
+    border-radius: 10px;
+    font-size: 60px;
+    text-align: right;
+    
+}
+.display p{
+    font-size: 30px;
+    text-align: center;
+}
+.buttons{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+button{
+    height:70px;
+    width:70px;
+    margin:20px;
+    border-radius:10px;
+    font-size: 30px;
+}
+button:hover{
+    cursor: pointer;
+}
